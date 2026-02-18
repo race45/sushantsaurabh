@@ -10,7 +10,7 @@ export default function Hero() {
   const [animationData, setAnimationData] = useState(null);
 
   useEffect(() => {
-    fetch("/developer-working.JSON")
+    fetch("/developer-working.json")
       .then((res) => res.json())
       .then((data) => setAnimationData(data));
   }, []);
