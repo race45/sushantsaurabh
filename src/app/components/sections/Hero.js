@@ -46,9 +46,9 @@ export default function Hero() {
           </div>
 
           {/* Name */}
-          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-            Hi, I am{" "}
-            <span className="bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+            Hi, I am{" "} Sushant Saurabh
+            {/* <span className="bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
               <Typewriter
                 words={["Sushant Saurabh", "Prompt Engineer"]}
                 loop={true}
@@ -58,7 +58,7 @@ export default function Hero() {
                 deleteSpeed={50}
                 delaySpeed={1500}
               />
-            </span>
+            </span> */}
             {/* <br />
   <span className="text-indigo-400 text-2xl md:text-3xl font-semibold">
     <Typewriter
@@ -79,7 +79,7 @@ export default function Hero() {
             applications using{" "}
             <span className="text-indigo-400 font-medium">
               <Typewriter
-                words={["React.js", "Next.js", "Angular", "WordPress"]}
+                words={["React.js", "Next.js", "Angular", "WordPress", "Prompt Engineer"]}
                 loop={true}
                 cursor
                 cursorStyle="|"
