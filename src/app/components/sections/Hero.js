@@ -79,7 +79,7 @@ export default function Hero() {
             applications using{" "}
             <span className="text-indigo-400 font-medium">
               <Typewriter
-                words={["React.js", "Next.js", "Angular", "WordPress", "Prompt Engineer"]}
+                words={["React.js", "Next.js", "Angular", "WordPress", "Prompt Engineering"]}
                 loop={true}
                 cursor
                 cursorStyle="|"
