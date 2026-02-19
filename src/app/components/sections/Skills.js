@@ -12,6 +12,7 @@ import {
   FaDocker,
   FaFigma,
   FaPhp,
+  FaBug,
 } from "react-icons/fa";
 
 import {
@@ -23,6 +24,7 @@ import {
   SiMui,
   SiAntdesign,
   SiOpenai,
+  SiGithubactions,
 } from "react-icons/si";
 
 const skills = [
@@ -38,6 +40,8 @@ const skills = [
   { name: "Ant Design", icon: <SiAntdesign /> },
   { name: "SQL", icon: <SiMysql /> },
   { name: "PHP", icon: <FaPhp /> },
+  { name: "Debugging", icon: <FaBug /> },
+  { name: "CI/CD", icon: <SiGithubactions /> },
   { name: "Git", icon: <FaGitAlt /> },
   { name: "GitHub", icon: <FaGithub /> },
   { name: "Docker", icon: <FaDocker /> },
